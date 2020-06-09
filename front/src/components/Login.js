@@ -42,15 +42,15 @@ class Login extends React.Component {
     render() {
         return(
             <div>
-                <form>
-                    <h1>Authentification</h1>
+                <form className="form">
+                    <h1 className="test">Authentification</h1>
                     <label for="eMail">eMail :</label>
-                    <input name="eMail" type="text" onChange={this.getLogin} placeholder="Enter your adress mail"></input>
+                    <input id="eMail" type="text" onChange={this.getLogin} placeholder="Enter your adress mail"></input>
                     <label for="pwd">Password :</label>
-                    <input name="pwd" type="text" onChange={this.getPwd} placeholder="Enter your password"></input>
+                    <input id="pwd" type="text" onChange={this.getPwd} placeholder="Enter your password"></input>
                     { this.state.failed ? <p className='incorrect'>Your login or your password is incorrect !</p> : "" }
                     { this.state.success ? <Redirect to="/success" /> : "" }
-                    <Link><button onClick={this.getApi}>Sign In</button></Link>
+                    <Link><button id="button" onClick={this.getApi}>Sign In</button></Link>
                 </form>
             </div>
         )
