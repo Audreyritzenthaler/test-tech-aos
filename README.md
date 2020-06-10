@@ -1,6 +1,6 @@
 # test-tech-aos
 
-Voilà le test technique demandé chez Aos
+Test technique demandé chez Aos
 
 ### L'énoncé ;
 
@@ -24,4 +24,17 @@ Back : NodeJS
 Front : ReactJS - React-router
 Base de données : MongoDB
 Framework de test : Puppeteer
+
+---------------------------------------------------------------------------------------
+
+Pour tester le projet, merci de bien vouloir cloner le repo.
+Importer le fichier db.json dans votre propre db (mon chemin => nom de la db: 'test-tech', nom de la collection => 'users')
+
+Se mettre dans le dossier front en console, lancer npm i puis npm start. Dans une autre console, se placer dans le dossier back-aos, lancer node server.js. Dans une troisieme console, se placer dans front, et lancer npm test pour lancer les tests puppeteer.
+
+
+Pour m'expliquer rapidement, je n'ai pas utilisé de cryptage, puisque le cryptage se déroule lors d'une inscription, fonctionalité qui n'a pas été implémenté dans ce projet.
+Pour toute la partie front/back, j'ai pu me débrouiller seule. Pour la partie test, n'ayant jamais vraiment fait cela, j'ai reçu un peu d'aide pour me poser les bonnes questions, mais c'est toujours moi qui ai codé et imposé ma logique.
+
+
 
