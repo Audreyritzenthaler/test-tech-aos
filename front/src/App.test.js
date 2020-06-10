@@ -11,7 +11,7 @@ describe('the login fail', () => {
       });
       let page = await browser.newPage();
 
-      const mail = "ritzenthaler.audrey@gmail.com"
+      const mail = "lulakath"
       const pwd = "test1"
 
       await page.goto('http://localhost:3000');
@@ -39,7 +39,7 @@ describe('the login success', () => {
       });
       let page = await browser.newPage();
 
-      const mail = "lulakath"
+      const mail = "ritzenthaler.audrey@gmail.com"
       const pwd = "test1"
       
       await page.goto('http://localhost:3000');
